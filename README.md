@@ -29,5 +29,5 @@ Alex's Map Reduce Framework
     3. A more comprehensive framework that handles multiple processes per client (we can map multiple times to get smaller and smaller data) so we can get the highest performance.
     4. Some sort of priortiy queueing system so multiple programs can be using the framework at the same time
       1. For real fanciness - authentication and user management system to divy up process resources using some sort of cake cutting algorithm (with Dorin's help possibly).
-  2. ???
-  3. Profit
+  3. ???
+  4. Profit
