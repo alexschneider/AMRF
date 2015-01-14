@@ -31,3 +31,6 @@ Alex's Map Reduce Framework
       1. For real fanciness - authentication and user management system to divy up process resources using some sort of cake cutting algorithm (with Dorin's help possibly).
   3. ???
   4. Profit
+
+
+http://flume.apache.org/
