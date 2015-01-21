@@ -34,3 +34,4 @@ Alex's Map Reduce Framework
 
 
 http://flume.apache.org/
+http://research.google.com/pubs/pub41378.html
