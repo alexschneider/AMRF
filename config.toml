@@ -1,0 +1,3 @@
+baseurl = "http://alexschneider.github.io/AMRF"
+languageCode = "en-us"
+title = "Alex's Map Reduce Framework"
