@@ -1,10 +1,6 @@
 box: wercker/default
 build:
   steps:
-    - script:
-        name: Checkout correct branch
-        code: |-
-            git checkout site
     - arjen/hugo-build:
         version: 0.12
         theme: redlounge
@@ -13,5 +9,4 @@ deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: alexschneider.github.io/AMRF
         basedir: public
