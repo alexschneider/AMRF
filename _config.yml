@@ -2,6 +2,15 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+
 # Site
 title: Alex's Map Reduce Framework
 subtitle: Map Reduce Framework in Rust
@@ -84,6 +93,7 @@ exclude_generator:
 
 plugins:
   - hexo-renderer-mathjax
+  - hexo-renderer-markdown-it
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
